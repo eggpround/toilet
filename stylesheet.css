@@ -78,4 +78,8 @@
               transform: rotate(360deg); /* アニメーション終了時のスタイル */
         }
   }
-  
+  @media screen and (min-width: 481px) {
+    .toiletA img{
+      left: 40%;
+    }
+  }
