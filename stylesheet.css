@@ -1,81 +1,88 @@
+* {
+margin: 0;
+padding: 0;
+}
 .bg-1 {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 5px;
-    color: white;
-    position:fixed;
-    padding: 5px 4% 11px;
-    padding: 10px;
-  }
-  .title{
-    text-shadow: -1px -1px rgba(255, 255, 255, 0.5), 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    margin: 10px;
-    font-style: italic;
-    font-size: 35px;
-  }
-  body {
-   background: linear-gradient(135deg, rgba(255, 221, 40, 0.8), rgba(255, 110, 80, 0.8) ) fixed,url(https://free-materials.com/adm/wp-content/uploads/2016/04/239b87d31f8324514572bceb28ffcd2b.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
-  }
-   .w {
-    display: block;
-          width: 64px;
-          height: 69px;
-          font-size: 0;
-          background: url(https://www.sozailab.jp/db_img/sozai/64498/78228edac86a9b87b9467fe346d51318.png) left top/64px auto no-repeat;
-  }
-  .bottonA {
-    background: #DB1F48;
-    border: white;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    color: white;
-    text-align:center;
-    transition: background-color 1s;
-    font-size: 35px;
-    font-style: italic;
-    text-shadow: 0 0 10px #e6b422;
-  }
-  .bottonA:hover{
-    background-color: #004369;
-  }
-  .bottons{
-   display:flex;
-   justify-content:center;
-   position: relative;
-   top: 600px;
-  }
-  .toiletA img {
-  width: 300px;
-    display:flex;
-   justify-content:center;
-   position: relative;
-   top: 400px;
-    animation: rotate_anime 4s linear infinite;
-  }
-  .toiletB img {
-   width: 300px;
-   display:flex;
-   justify-content:flex-end;
-   position: relative;
-   position: absolute;
-   top: 447px;
-    right: 0px;
-     animation: rotate_anime 4s linear infinite;
-  }
-  @keyframes rotate_anime {
-        0% {
-              transform: rotate(0deg); /* アニメーション開始時のスタイル */
-        }
-        100% {
-              transform: rotate(360deg); /* アニメーション終了時のスタイル */
-        }
-  }
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 5px;
+  color: white;
+  position:fixed;
+  padding: 5px 4% 11px;
+  padding: 10px;
+  box-shadow: 0 5px 20px rgba(255, 152, 79, 0.5);
+  backdrop-filter: blur(20px);
+  margin: 10px;
+}
+.title{
+  font-weight: bold;
+  margin: 10px;
+  font-style: italic;
+  font-size: 35px;
+}
+.background {
+ background: linear-gradient(135deg, rgba(255, 221, 40, 0.8), rgba(255, 110, 80, 0.8) ) fixed,url(https://free-materials.com/adm/wp-content/uploads/2016/04/239b87d31f8324514572bceb28ffcd2b.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+ .w {
+  display: block;
+		width: 64px;
+		height: 69px;
+		font-size: 0;
+		background: url(https://www.sozailab.jp/db_img/sozai/64498/78228edac86a9b87b9467fe346d51318.png) left top/64px auto no-repeat;
+}
+.bottonA {
+  background: #DB1F48;
+  border: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  text-align:center;
+  font-family: ;
+  transition: background-color 1s;
+  font-size: 35px;
+  font-style: italic;
+  text-shadow: 0 0 10px #e6b422;
+}
+.bottonA:hover{
+  background-color: #004369;
+}
+.bottons{
+ display:flex;
+ justify-content:center;
+ position: relative;
+ top: 400px;
+}
+.toiletA img {
+width: 300px;
+  display:flex;
+ justify-content:center;
+ position: relative;
+ top: 200px;
+  animation: rotate_anime 4s linear infinite;
+}
+.toiletB img {
+ width: 300px;
+ display:flex;
+ justify-content:flex-end;
+ position: relative;
+ position: absolute;
+ top: 247px;
+  right: 0px;
+   animation: rotate_anime 4s linear infinite;
+}
+@keyframes rotate_anime {
+      0% {
+            transform: rotate(0deg); /* アニメーション開始時のスタイル */
+      }
+      100% {
+            transform: rotate(360deg); /* アニメーション終了時のスタイル */
+      }
+}
