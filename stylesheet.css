@@ -14,6 +14,7 @@
     font-weight: bold;
     margin: 10px;
     font-style: italic;
+    font-size: 35px;
   }
   body {
    background: linear-gradient(135deg, rgba(255, 221, 40, 0.8), rgba(255, 110, 80, 0.8) ) fixed,url(https://free-materials.com/adm/wp-content/uploads/2016/04/239b87d31f8324514572bceb28ffcd2b.jpg);
@@ -39,6 +40,8 @@
     color: white;
     text-align:center;
     transition: background-color 1s;
+    font-size: 35px;
+    font-style: italic;
   }
   .bottonA:hover{
     background-color: #004369;
