@@ -42,6 +42,7 @@
     transition: background-color 1s;
     font-size: 35px;
     font-style: italic;
+    text-shadow: 0 0 10px #e6b422;
   }
   .bottonA:hover{
     background-color: #004369;
